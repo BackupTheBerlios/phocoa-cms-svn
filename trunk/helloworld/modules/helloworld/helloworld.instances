@@ -1,0 +1,13 @@
+<?php
+        /* vim: set expandtab tabstop=4 shiftwidth=4 syntax=php: */
+
+        $__instances = array(
+            'form' => array('class' => 'WFForm', 'children' => array(
+                'submit' => array('class' => 'WFSubmit'),
+                'email' => array('class' => 'WFTextField'),
+                'subject' => array('class' => 'WFTextField'),
+                'message' => array('class' => 'WFTextArea'),
+                )
+            )
+        );
+        ?>

@@ -1,0 +1,215 @@
+----------------------------------------------------------
+Date: Tuesday, February 28, 2006 14:14:56
+Code: 0
+Message: WFAuthorizationDelegate required to attempt login.
+Stack Trace:
+#0 C:\web\helloworld\helloworld\modules\login\login.php(36): WFAuthorizationManager->login('', '')
+#1 C:\web\phocoa\framework\WFPage.php(790): login->promptLogin_doLogin_Action(Object(WFPage))
+#2 C:\web\phocoa\framework\WFModule.php(285): WFPage->initPage('promptLogin')
+#3 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#4 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#5 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#6 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#7 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 14:20:17
+Code: 0
+Message: WFAuthorizationDelegate required to attempt login.
+Stack Trace:
+#0 C:\web\helloworld\helloworld\modules\login\login.php(36): WFAuthorizationManager->login('', '')
+#1 C:\web\phocoa\framework\WFPage.php(790): login->promptLogin_doLogin_Action(Object(WFPage))
+#2 C:\web\phocoa\framework\WFModule.php(285): WFPage->initPage('promptLogin')
+#3 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#4 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#5 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#6 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#7 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 14:20:20
+Code: 0
+Message: WFAuthorizationDelegate required to attempt login.
+Stack Trace:
+#0 C:\web\helloworld\helloworld\modules\login\login.php(36): WFAuthorizationManager->login('asdasd', '')
+#1 C:\web\phocoa\framework\WFPage.php(790): login->promptLogin_doLogin_Action(Object(WFPage))
+#2 C:\web\phocoa\framework\WFModule.php(285): WFPage->initPage('promptLogin')
+#3 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#4 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#5 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#6 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#7 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 14:20:25
+Code: 0
+Message: WFAuthorizationDelegate required to attempt login.
+Stack Trace:
+#0 C:\web\helloworld\helloworld\modules\login\login.php(36): WFAuthorizationManager->login('sd', '3234wer')
+#1 C:\web\phocoa\framework\WFPage.php(790): login->promptLogin_doLogin_Action(Object(WFPage))
+#2 C:\web\phocoa\framework\WFModule.php(285): WFPage->initPage('promptLogin')
+#3 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#4 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#5 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#6 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#7 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 14:58:54
+Code: 0
+Message: No object exists with id 'form'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFSmarty.php(69): WFPage->outlet('form')
+#1 C:\web\phocoa\smarty\plugins\block.WFForm.php(23): WFSmarty->getCurrentWidget(Array)
+#2 C:\web\helloworld\runtime\smarty\templates_c\%%A0^A0F^A0F51021%%helloworld.tpl.php(6): smarty_block_WFForm(Array, NULL, Object(WFSmarty), true)
+#3 C:\web\includes\smarty\Smarty.class.php(1265): include('C:\web\hellowor...')
+#4 C:\web\phocoa\framework\WFSmarty.php(55): Smarty->fetch('C:/web/hellowor...')
+#5 C:\web\phocoa\framework\WFPage.php(912): WFSmarty->render(false)
+#6 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#7 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#8 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#9 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#10 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#11 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 15:00:45
+Code: 0
+Message: Action method helloworld_submit_Action does not exist for module helloworld
+Stack Trace:
+#0 C:\web\phocoa\framework\WFModule.php(285): WFPage->initPage('helloworld')
+#1 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#2 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#3 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#4 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#5 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 15:07:21
+Code: 0
+Message: No .tpl file found for page '1helloworld' of module 'helloworld'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFPage.php(894): WFPage->prepareTemplate()
+#1 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#2 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#3 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#4 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#5 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#6 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 15:07:30
+Code: 0
+Message: No .tpl file found for page '1helloworld' of module 'helloworld'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFPage.php(894): WFPage->prepareTemplate()
+#1 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#2 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#3 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#4 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#5 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#6 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 15:13:43
+Code: 0
+Message: No object exists with id 'subject'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFSmarty.php(69): WFPage->outlet('subject')
+#1 C:\web\phocoa\smarty\plugins\function.WFTextField.php(23): WFSmarty->getCurrentWidget(Array)
+#2 C:\web\helloworld\runtime\smarty\templates_c\%%A0^A0F^A0F51021%%helloworld.tpl.php(10): smarty_function_WFTextField(Array, Object(WFSmarty))
+#3 C:\web\includes\smarty\Smarty.class.php(1265): include('C:\web\hellowor...')
+#4 C:\web\phocoa\framework\WFSmarty.php(55): Smarty->fetch('C:/web/hellowor...')
+#5 C:\web\phocoa\framework\WFPage.php(912): WFSmarty->render(false)
+#6 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#7 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#8 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#9 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#10 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#11 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 15:13:50
+Code: 0
+Message: No object exists with id 'subject'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFSmarty.php(69): WFPage->outlet('subject')
+#1 C:\web\phocoa\smarty\plugins\function.WFTextField.php(23): WFSmarty->getCurrentWidget(Array)
+#2 C:\web\helloworld\runtime\smarty\templates_c\%%A0^A0F^A0F51021%%helloworld.tpl.php(10): smarty_function_WFTextField(Array, Object(WFSmarty))
+#3 C:\web\includes\smarty\Smarty.class.php(1265): include('C:\web\hellowor...')
+#4 C:\web\phocoa\framework\WFSmarty.php(55): Smarty->fetch('C:/web/hellowor...')
+#5 C:\web\phocoa\framework\WFPage.php(912): WFSmarty->render(false)
+#6 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#7 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#8 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#9 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#10 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#11 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 16:11:57
+Code: 0
+Message: No page could be determined. Make sure you are supplying an page in the invocation path or have your module supply a defaultPage.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFModule.php(276): WFModuleInvocation->extractComponentsFromInvocationPath()
+#1 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#2 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#3 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#4 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#5 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 16:12:25
+Code: 0
+Message: No .tpl file found for page '1' of module 'helloworld'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFPage.php(894): WFPage->prepareTemplate()
+#1 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#2 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#3 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#4 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#5 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#6 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 16:12:45
+Code: 0
+Message: No .tpl file found for page '1' of module 'helloworld'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFPage.php(894): WFPage->prepareTemplate()
+#1 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#2 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#3 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#4 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#5 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#6 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 16:12:50
+Code: 0
+Message: No .tpl file found for page '1' of module 'helloworld'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFPage.php(894): WFPage->prepareTemplate()
+#1 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#2 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#3 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#4 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#5 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#6 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Tuesday, February 28, 2006 16:12:58
+Code: 0
+Message: No .tpl file found for page '1' of module 'helloworld'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFPage.php(894): WFPage->prepareTemplate()
+#1 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#2 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#3 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#4 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#5 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#6 {main}
+--------------------------------------------------------------------------------------------------------------------
+Date: Wednesday, March 1, 2006 11:58:08
+Code: 0
+Message: No object exists with id 'timestamp'.
+Stack Trace:
+#0 C:\web\phocoa\framework\WFSmarty.php(69): WFPage->outlet('timestamp')
+#1 C:\web\phocoa\smarty\plugins\function.WFLabel.php(24): WFSmarty->getCurrentWidget(Array)
+#2 C:\web\helloworld\runtime\smarty\templates_c\%%59^59B^59B09350%%emailSuccess.tpl.php(6): smarty_function_WFLabel(Array, Object(WFSmarty))
+#3 C:\web\includes\smarty\Smarty.class.php(1265): include('C:\web\hellowor...')
+#4 C:\web\phocoa\framework\WFSmarty.php(55): Smarty->fetch('C:/web/hellowor...')
+#5 C:\web\phocoa\framework\WFPage.php(912): WFSmarty->render(false)
+#6 C:\web\phocoa\framework\WFModule.php(294): WFPage->render()
+#7 C:\web\phocoa\framework\WFRequestController.php(94): WFModuleInvocation->execute()
+#8 C:\web\phocoa\framework\WFWebApplication.php(92): WFRequestController->handleHTTPRequest()
+#9 C:\web\phocoa\framework\WFWebApplication.php(22): WFWebApplication->runWebApplication()
+#10 C:\web\helloworld\helloworld\wwwroot\index.php(6): WFWebApplicationMain()
+#11 {main}
+----------------------------------------------------------

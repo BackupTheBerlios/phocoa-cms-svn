@@ -1,0 +1,77 @@
+/* TABS */
+div.phocoaTabNav {
+float:left;  
+font-size:93%;
+line-height:normal;
+text-align: left;
+width: 100%; 
+margin: 0;
+}
+div.phocoaTabNav ul {
+margin:0;
+padding:10px 10px 0 0;
+list-style:none;
+}
+div.phocoaTabNav li {
+float:left;  
+margin:0;
+padding:0;
+}
+div.phocoaTabNav a {
+display: block;
+padding:5px 15px 4px 15px;
+background: white;
+border: 1px solid black;
+}
+div.phocoaTabNav a:link, div.phocoaTabNav a:visited, div.phocoaTabNav a:hover, div.phocoaTabNav a:active {
+    color: black;
+    text-decoration: none;
+}
+div.phocoaTabNav a:hover, div.phocoaTabNav a:active {
+    text-decoration: underline;
+}
+div.phocoaTabNav .active {
+}
+div.phocoaTabNav .active a {
+padding-bottom:5px;
+background-color: gray;
+}
+div.phocoaTabContent {
+clear: both;
+position: relative;
+top: -1px;
+margin: 0;
+padding: 10px 10px 10px 20px;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+
+div.phocoaWFMessageBox {
+    width: 350px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+    background-color: yellow;
+    min-height: 48px;
+}
+img.phocoaWFMessageBox_icon {
+    float: left;
+    margin: 0 8px 0 5px;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+}
+div.phocoaWFMessageBox_Info {
+    border: 2px solid green;
+}
+div.phocoaWFMessageBox_Warning {
+    border: 2px solid orange;
+}
+div.phocoaWFMessageBox_Error {
+    border: 2px solid red;
+}
+div.phocoaWFMessageBox_Confirm {
+    border: 2px solid orange;
+}

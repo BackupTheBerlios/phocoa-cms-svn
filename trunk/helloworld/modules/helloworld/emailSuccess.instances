@@ -1,0 +1,11 @@
+<?php
+        /* vim: set expandtab tabstop=4 shiftwidth=4 syntax=php: */
+
+$__instances = array(
+    'message' => array('class' => 'WFLabel'),
+    'subject' => array('class' => 'WFLabel'),
+    'email' => array('class' => 'WFLabel'),
+    'timestamp' => array('class' => 'WFLabel', 'children'=> array()),
+);
+
+        ?>
